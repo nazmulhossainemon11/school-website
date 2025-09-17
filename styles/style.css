@@ -23,6 +23,11 @@
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
+
+
+
+
+
 header {
   width: 100%;
   background: #fff;
@@ -457,23 +462,6 @@ header {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 .footer {
   background-color: #00aaff;
   color: white;
@@ -550,4 +538,66 @@ header {
 }
 
 
+
+
+
+/* Hide checkbox */
+#menu-toggle {
+  display: none;
+}
+
+/* Hamburger */
+.hamburger {
+  display: none;
+  font-size: 28px;
+  cursor: pointer;
+  user-select: none;
+}
+
+
+
+
+
+/* ===== Responsive ===== */
+@media (max-width: 768px) {
+  .navbar-container {
+    flex-wrap: wrap;
+    padding: 15px 20px;
+  }
+
+  /* Hide menu & button by default */
+  .navbar-middle,
+  .navbar-right {
+    display: none;
+    width: 100%;
+    text-align: center;
+  }
+
+  /* Show hamburger */
+  .hamburger {
+    display: block;
+    margin-left: auto;
+  }
+
+  /* When checkbox is checked -> show menu */
+  #menu-toggle:checked ~ .navbar-middle,
+  #menu-toggle:checked ~ .navbar-right {
+    display: block;
+    margin-top: 15px;
+  }
+
+  .navbar-middle ul {
+    padding: 0;
+  }
+
+  .navbar-middle ul li {
+    display: block;
+    margin: 12px 0;
+  }
+
+  .contact-btn {
+    margin-top: 10px;
+    width: 100%;
+  }
+}
 
