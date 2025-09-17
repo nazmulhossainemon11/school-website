@@ -36,8 +36,8 @@ header {
 .navbar-container {
   display: flex;
   justify-content: space-between;
-  align-items: center;
-  padding: 20px 60px;
+  align-items: center; 
+   padding: 20px 60px;
 }
 
 .logo {
@@ -51,8 +51,7 @@ header {
 }
 
 .navbar-left h2 {
-  font-weight: 700;
-  font-size: 20px;
+  font-weight: bold;
 }
 
 /* Navbar menu */
@@ -107,7 +106,7 @@ header {
 /* Hero Section */
 .hero {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
   padding: 60px;
   background: #fff;
@@ -176,13 +175,13 @@ header {
     padding: 60px 20px;
     max-width: 1200px;
     margin: 0 auto;
+}
 
-    /* Background image */
-    background-image: url('../assets/bg.png');
+#curriculum-bg{
+  background-image: url('../assets/bg.png');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    border-radius: 15px;
 }
 
 .section-title {
@@ -200,8 +199,6 @@ header {
 }
 
 .curriculum-card {
-    /* background-color: rgba(255, 255, 255, 0.9);  */
-    /* semi-transparent for bg image */
     border-radius: 15px;
     box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15);
     padding: 25px 20px;
@@ -307,3 +304,110 @@ header {
 }
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.footer {
+  background-color: #00aaff;
+  color: white;
+ 
+}
+
+.footer-container {
+  /* max-width: 1200px; */
+  /* margin: 0 auto; */
+  display: flex;
+  /* flex-wrap: wrap; */
+  justify-content: space-around;
+  padding: 20px;
+}
+
+/* .footer-column {
+  flex: 1;
+  min-width: 220px;
+} */
+
+.footer-column h2.logo {
+  font-size: 22px;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+.footer-column h3 {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 12px;
+}
+
+.footer-column p {
+  font-size: 14px;
+  color: #e6f7ff;
+}
+
+.footer-column ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-column ul li {
+  margin-bottom: 8px;
+}
+
+.footer-column ul li a {
+  color: #e6f7ff;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.footer-column ul li a:hover {
+  text-decoration: underline;
+}
+
+.social-icons {
+  display: flex;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.social-icons a img {
+  width: 30px;
+  height: 30px;
+  border-radius: 6px;
+  background-color: white;
+  padding: 5px;
+  transition: transform 0.2s ease;
+}
+
+.social-icons a img:hover {
+  transform: scale(1.1);
+}
