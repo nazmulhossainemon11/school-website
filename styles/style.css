@@ -1,0 +1,161 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&family=Quicksand:wght@300..700&display=swap');
+
+
+.azeret-mono-fonts {
+  font-family: "Azeret Mono", monospace;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+
+
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header {
+  width: 100%;
+  background: #fff;
+}
+
+/* Navbar */
+.navbar {
+  width: 100%;
+}
+
+.navbar-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 60px;
+}
+
+.logo {
+  width: 40px;
+  margin-right: 10px;
+}
+
+.navbar-left {
+  display: flex;
+  align-items: center;
+}
+
+.navbar-left h2 {
+  font-weight: 700;
+  font-size: 20px;
+}
+
+/* Navbar menu */
+.navbar-middle ul {
+  list-style: none;
+}
+
+.navbar-middle ul li {
+  display: inline-block;
+  margin-left: 20px;
+}
+
+.navbar-middle ul li a {
+  text-decoration: none;
+  font-weight: 500;
+  transition: 0.3s;
+}
+
+/* Different colors for each menu */
+.navbar-middle ul li:nth-child(1) a {
+  color: #ff9900; 
+}
+.navbar-middle ul li:nth-child(2) a {
+  color: #3ebffb; 
+}
+.navbar-middle ul li:nth-child(3) a {
+  color: #00aaff; 
+}
+.navbar-middle ul li:nth-child(4) a {
+  color: #7a3cf0; 
+}
+
+.navbar-middle ul li a:hover {
+  opacity: 0.7;
+}
+
+.contact-btn {
+  background: #ff9900;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 6px;
+  color: #fff;
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.contact-btn:hover {
+  background: #e68900;
+}
+
+/* Hero Section */
+.hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 60px;
+  background: #fff;
+}
+
+.hero-content {
+  max-width: 50%;
+}
+
+.hero-content h1 {
+  font-size: 38px;
+  line-height: 1.4;
+  margin-bottom: 20px;
+  font-weight: 700;
+}
+
+.highlight-orange {
+  color: #ff9900;
+}
+
+.highlight-blue {
+  color: #007bff;
+}
+
+.hero-content p {
+  color: #666;
+  font-size: 16px;
+  line-height: 1.6;
+  margin-bottom: 30px;
+}
+
+.enroll-btn {
+  background: #000;
+  color: #fff;
+  padding: 12px 28px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: 600;
+  transition: 0.3s;
+}
+
+.enroll-btn:hover {
+  background: #333;
+}
+
+.hero-image img {
+  max-width: 400px;
+  border-radius: 12px;
+}
+
