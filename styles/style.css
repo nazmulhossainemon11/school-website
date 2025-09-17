@@ -306,7 +306,144 @@ header {
 
 
 
+/* Our Stories */
 
+.our-stories {
+  padding: 50px 40px;
+  text-align: center;
+  background: #faf5e9;
+}
+.our-stories-bg-image{
+  background-image: url("../assets/bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.section-title {
+  font-size: 28px;
+  font-weight: 700;
+  margin-bottom: 30px;
+}
+
+.our-stories-container {
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+  align-items: flex-start;
+}
+
+/* ===== Single Big Card ===== */
+.our-stories-card-single {
+  flex: 1;
+  max-width: 50%;
+  background: #fff;
+  border-radius: 15px;
+  overflow: hidden;
+  text-align: left;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+}
+
+.our-stories-card-single .card-image {
+  position: relative;
+}
+
+.our-stories-card-single img {
+  width: 100%;
+  display: block;
+}
+
+.date-badge {
+  position: absolute;
+  bottom: -15px;
+  left: 15px;
+  background: #00bcd4;
+  color: #fff;
+  padding: 6px 14px;
+  border-radius: 30px;
+  font-size: 13px;
+  font-weight: 500;
+}
+
+.card-content {
+  padding: 20px;
+}
+
+.card-content h3,
+.card-content h4 {
+  margin-bottom: 10px;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.card-content p {
+  font-size: 14px;
+  line-height: 1.6;
+  color: #555;
+}
+
+/* ===== Right Grid Cards ===== */
+.our-stories-main-content {
+  flex: 1;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+
+.story-card {
+  background: #fff;
+  border-radius: 12px;
+  overflow: hidden;
+  text-align: left;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.06);
+}
+
+.story-card img {
+  width: 100%;
+  display: block;
+  border-radius: 12px 12px 0 0;
+}
+
+.story-card .card-image {
+  position: relative;
+}
+
+.story-card .card-content {
+  padding: 15px;
+}
+
+/* ===== Badge Colors ===== */
+.date-badge.green {
+  background: #4caf50;
+}
+.date-badge.purple {
+  background: #673ab7;
+}
+.date-badge.yellow {
+  background: #ff9800;
+}
+.date-badge.dark-green {
+  background: #388e3c;
+}
+
+/* ===== Button ===== */
+.view-all-btn {
+  margin-top: 30px;
+}
+
+.view-all-btn button {
+  background: #000;
+  color: #fff;
+  border: none;
+  padding: 12px 28px;
+  border-radius: 25px;
+  font-size: 14px;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.view-all-btn button:hover {
+  background: #333;
+}
 
 
 
@@ -411,3 +548,6 @@ header {
 .social-icons a img:hover {
   transform: scale(1.1);
 }
+
+
+
