@@ -164,7 +164,6 @@ header {
 }
 
 
-
 /* Curriculum Section */
 
 .curriculum-section {
@@ -296,8 +295,6 @@ header {
     color: #fff;
     font-weight: bold;
 }
-
-
 
 
 /* Our Stories */
@@ -509,9 +506,6 @@ header {
 }
 
 
-
-
-
 /* Hide checkbox */
 #menu-toggle {
   display: none;
@@ -524,9 +518,6 @@ header {
   cursor: pointer;
   user-select: none;
 }
-
-
-
 
 
 /* ===== Responsive ===== */
@@ -571,8 +562,6 @@ header {
     width: 100%;
   }
 }
-
-
 
 
 /* Hero section responsive */
@@ -763,8 +752,6 @@ header {
     margin-top: 15px;
   }
 }
-
-
 
 
 
